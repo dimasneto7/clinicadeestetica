@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins" !important;
+}
+#backgroundMain {
+  background-image: url(../assets/images/background.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.imgLogo h2 {
+  color: #3c096c;
+  font-size: 26px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.imgLogo span {
+  font-weight: 600;
+}
+.navbar {
+  padding: 1.5rem !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #3c096c !important;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.5s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  background: #fff !important;
+  border-radius: 25px;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: rgba(255, 255, 255, 1.1) !important;
+}
+
+.intro {
+  margin-top: 130px;
+}
+
+.introText h1 {
+  color: #3c096c;
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.introText p {
+  color: #3c096c;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.intro button {
+  background: #9d4edd;
+  padding: 6px 25px;
+  border: none;
+  border-radius: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.intro button img {
+  margin-right: 10px;
+}
+
+.intro button:hover {
+  opacity: 0.8;
+}
+
+.introImage img {
+  margin-top: -30px;
+}
+
+@media (max-width: 1330px) {
+  .introImage img {
+    transform: translate(0px, -30px) scale(0.9);
+  }
+}
+
+@media (max-width: 1250px) {
+  .introImage img {
+    transform: translate(-30px, -30px) scale(0.9);
+  }
+}
+
+@media (max-width: 1220px) {
+  .introImage img {
+    transform: translate(-66px, -30px) scale(0.9);
+  }
+}
+
+@media (max-width: 1199px) {
+  .introImage img {
+    transform: translate(-66px, -30px) scale(0.8);
+  }
+}
+
+@media (max-width: 1000px) {
+  .introImage img {
+    transform: translate(-66px, -40px) scale(0.7);
+  }
+}
+@media (max-width: 950px) {
+  .introImage img {
+    transform: translate(-100px, -40px) scale(0.7);
+  }
+}
+@media (max-width: 870px) {
+  .introImage img {
+    transform: translate(-126px, -70px) scale(0.6);
+  }
+}
+@media (max-width: 767px) {
+  .introImage img {
+    transform: translate(-61px, -400px) scale(0.6);
+  }
+}
