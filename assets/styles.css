@@ -17,6 +17,30 @@ body {
   width: 100%;
 }
 
+@media (max-width: 991px) {
+  #backgroundMain {
+    height: 600px;
+  }
+}
+
+@media (max-width: 767px) {
+  #backgroundMain {
+    height: 800px;
+  }
+}
+
+@media (max-width: 767px) {
+  #backgroundMain {
+    height: 760px;
+  }
+}
+
+@media (max-width: 496px) {
+  #backgroundMain {
+    height: 780px;
+  }
+}
+
 .imgLogo h2 {
   color: #3c096c;
   font-size: 26px;
@@ -33,7 +57,7 @@ body {
   font-weight: 600;
 }
 .navbar {
-  padding: 1.5rem !important;
+  padding: 1.5rem 0 !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -270,6 +294,24 @@ body {
   margin-top: 10px;
 }
 
+@media (max-width: 575px) {
+  .ourClinic h4 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 467px) {
+  .ourClinic h4 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .ourClinic h4 {
+    font-size: 10px;
+  }
+}
+
 .ourClinic p {
   color: #838383;
   font-size: 16px;
@@ -277,6 +319,12 @@ body {
   line-height: 30px;
   max-width: 255px;
   margin: 0 auto;
+}
+
+@media (max-width: 575px) {
+  .ourClinic p {
+    display: none;
+  }
 }
 
 .swiper {
@@ -316,6 +364,54 @@ body {
 .swiper-button-prev {
   color: #3c096c !important;
   top: 38% !important;
+}
+
+@media (max-width: 991px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: 32% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: 24% !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: 40% !important;
+  }
+}
+
+@media (max-width: 467px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: 38% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 30px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .swiper-button-next,
+  .swiper-rtl .swiper-button-prev {
+    right: 0px;
+  }
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: 0px;
+  left: auto;
 }
 
 #evaluation {
@@ -390,6 +486,11 @@ body {
   width: 100%;
 }
 
+@media (max-width: 767px) {
+  .imgExpert {
+    width: 60%;
+  }
+}
 .experts h4 {
   color: #000;
   font-size: 21px;
@@ -400,7 +501,7 @@ body {
 
 .experts a {
   background: #9d4edd;
-  padding: 6px 25px;
+  padding: 8px 30px;
   border: none;
   border-radius: 18px;
   color: #fff;
@@ -509,4 +610,11 @@ footer h3 {
   font-size: 21px;
   font-weight: 300;
   text-align: center;
+}
+
+@media (max-width: 354px) {
+  footer h3 {
+    line-height: 30px;
+    padding-top: 12px;
+  }
 }
