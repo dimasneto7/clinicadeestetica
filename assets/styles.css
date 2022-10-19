@@ -576,6 +576,9 @@ body {
   padding: 15px;
 }
 
+.btnWhats {
+  width: 70%;
+}
 footer {
   background: #9d4edd;
   height: 90px;
