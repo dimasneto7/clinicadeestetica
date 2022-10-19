@@ -17,30 +17,6 @@ body {
   width: 100%;
 }
 
-@media (max-width: 991px) {
-  #backgroundMain {
-    height: 600px;
-  }
-}
-
-@media (max-width: 767px) {
-  #backgroundMain {
-    height: 800px;
-  }
-}
-
-@media (max-width: 767px) {
-  #backgroundMain {
-    height: 760px;
-  }
-}
-
-@media (max-width: 496px) {
-  #backgroundMain {
-    height: 780px;
-  }
-}
-
 .imgLogo h2 {
   color: #3c096c;
   font-size: 26px;
@@ -50,7 +26,6 @@ body {
 @media (max-width: 991px) {
   .imgLogo h2 {
     font-size: 22px;
-    margin: 0px -20px 0 0;
   }
 }
 .imgLogo span {
@@ -83,6 +58,10 @@ body {
 
 .intro {
   margin-top: 110px;
+}
+
+.introText {
+  margin-bottom: 50px;
 }
 
 .introText h1 {
